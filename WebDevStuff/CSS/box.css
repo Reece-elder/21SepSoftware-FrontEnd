@@ -1,0 +1,37 @@
+div {
+    height: 200px;
+    width: 40%;
+
+    /* Border takes in 3 paramaters, width, pattern and colour */
+    /* border: 2px solid red; */
+    /* background-color: teal; */
+}
+
+.teal {
+    background-color: teal;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.border {
+    border: 10px solid red;
+}
+
+.padding {
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 47px;
+
+    /* top bottom right left */
+    padding: 13px 47px 25px 15px;
+}
+
+.margin {
+    margin: auto;
+}
+
+
+
