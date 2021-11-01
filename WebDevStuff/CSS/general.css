@@ -1,0 +1,13 @@
+/* Contains all of the general stylings for a website  */
+
+/* Fonts
+textColour
+Header, footer
+background colour
+margin borders */
+
+/* All text to be colour grey */
+
+body {
+    color: gray;
+}

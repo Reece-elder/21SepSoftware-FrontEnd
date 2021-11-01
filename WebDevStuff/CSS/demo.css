@@ -1,0 +1,61 @@
+/* Generally you'll have a CSS style sheet per page
+AND you'll have a a general style sheet for the entire website */
+
+/* Selector { 
+    Key value pairs
+} */
+
+/* Element selector - name of the element */
+h1 {
+    color: red;
+    color: green;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+/* class and ID selectors
+class should be assigned to multiple elements (i.e all 30 menu items)
+id should be assigned to ONLY ONE element */
+
+/* Class selector - .name of the class */
+.firstHeader {
+    color: red;
+    font-style: italic;
+}
+
+.secondHeader {
+    color: green;
+    font-family: fantasy;
+    font-style: normal;
+}
+
+/* id selector - #name of id */
+#headerId {
+    font-style: oblique;
+    font-family: cursive;
+    color: purple;
+}
+
+/* Multiple selector selector - selector, selector */
+h3, h4, h5 {
+    font-variant: small-caps;
+    font-kerning: 500;
+}
+
+/* Selector belonging to an element (a h4 that is of class group1) - element.className */
+h5.group1{
+    font-size: xx-large;
+    color: teal;
+}
+
+.darkMode{
+    color: whitesmoke;
+}
+
+.greenFont {
+    color: limegreen;
+}
+
+.blueBackGround {
+    background-color: aqua;
+}

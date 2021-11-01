@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External stylesheet -->
+    <!-- General Styelsheet first THEN specific stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../CSS/general.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/demo.css"> 
+
+    <title>Document</title>
+
+    
+    Inline Stylesheets - Last resort, useful for overwriting stuff
+
+    Embedded Stylesheets - Are embedded into the html document, and
+    overwrite all external style sheets
+    <!-- <style>
+        h1 {
+            color: green;
+        }
+    </style> -->
+
+</head>
+<body>
+
+    <h1 class="firstHeader "> This should be red and italic </h1>
+    <h1 class="secondHeader"> This should be green and font comic sans </h1>
+    <h1 id="headerId" class="secondHeader"> This has an ID of headerId</h1>
+
+    <h3> Im a H3! </h3>
+    <h4> Im a H4! </h5>
+    <h5 class="greenfont blueBackGround"> Im a H5! </h5>
+
+    <h4 class="group1"> Im a h4 of class group 1</h4>
+    <h5 class="group1"> Im a h5 of class group 1</h4>
+    <h6 class="group1"> Im a h6 of class group 1</h4>
+    
+</body>
+</html>
