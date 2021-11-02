@@ -42,3 +42,37 @@ console.log(cattery); // Within Java would print wekfewfb727@cattery
 // Print out the colour of our first cat
 
 console.log(cattery[0].colour);
+
+// JSON - JavaScript Object Notation - Data from other sources is configured and can be accessed through JS 
+// Similar to JS Objects AND uses key value pairs
+
+let zaphObj = {
+    name: "Zaph",
+    colour: "Ashy Black",
+    fluffy: true,
+    goodCatRating: 9,
+    chonky: true
+};
+
+let zaphJSON = {
+    "name" : "Zaph",
+    "colour" : "Ashy Black",
+    "fluffy" : true,
+}
+
+console.log("________________________________");
+console.log(zaphJSON.colour);
+
+// Through JS we can convert FROM JSON -> Object and Object -> JSON
+console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+let newZaphObj = JSON.parse('{"name" : "Zaph", "colour" : "Ashy Brown" }');
+console.log(newZaphObj);
+console.log(typeof newZaphObj);
+console.log(zaphJSON);
+console.log(typeof zaphJSON);
+
+// Convert JS objects -> JSON
+
+let newJSON = JSON.stringify(zaphObj);
+console.log(zaphObj);
+console.log(newJSON);
