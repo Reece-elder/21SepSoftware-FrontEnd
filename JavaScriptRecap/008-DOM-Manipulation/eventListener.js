@@ -28,10 +28,42 @@ let printName = (name) => {
     console.log(`Hey ${name}`);
 }
 
-// button1.addEventListener('click', (name) => {
-//     printName();
-// });
+button1.addEventListener('click', () => {
+    let nameValue = "Reece" // Would be checked with some kind of input field??
+    // let newValue = inputField.value;
+    printName(nameValue);
+    console.log(nameValue);
+});
 
 button1.addEventListener('click', buttonPressFunction);
 button2.addEventListener('click', buttonPressFunction);
 button3.addEventListener('click', buttonPressFunction);
+
+
+// Grabbing data from form section
+
+let textInput = document.querySelector('#textInput');
+let textBtn = document.querySelector('#textButton');
+console.log(textBtn);
+console.log(textInput);
+
+// Add a function to do the process I want
+
+let printText = (message) => {
+    console.log(`Text in input field is ${message}`);
+}
+
+// Add an event listener to the button to tell it to do 'something'
+
+textBtn.addEventListener('click', () => {
+    // console.log("Text button has been clicked!");
+    // console.log(textInput.value);
+
+    let textValue = textInput.value; 
+    // Creating a variable called textValue and assinging it the input value
+
+    textInput.value = ""; // Setting the input field to be blank
+
+    printText(textValue);
+
+})
