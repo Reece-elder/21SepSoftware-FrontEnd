@@ -15,6 +15,8 @@ let postData = () => {
 
   // Run fetch function
   postFetch(newObject);
+
+  return newObject
 };
 
 // POST request - Creating data and pushing it into a database
